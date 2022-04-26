@@ -1,0 +1,88 @@
+body {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+.words {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.new {
+    margin-right: 1em;
+}
+
+h1, span {
+    color: blue;
+}
+
+button {
+    padding: 8px 30px;
+    background-color: blue;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:disabled {
+   background-color: rgb(110, 110, 245);
+}
+
+input {
+    text-align: center;
+    width: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid blue;
+    position: relative;
+    bottom: 1.2px;
+    background: #f5f5f5;
+}
+
+input:disabled {
+    color: black;
+}
+
+#merit {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    background: #f5f5f5;
+    color: blue;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-size: 20px;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.fa {
+    color: gold;
+    letter-spacing: 0.5em;
+}
+
+#word {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#retry {
+    padding: 5px 20px;
+    font-size: 16px;
+}
