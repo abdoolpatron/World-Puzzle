@@ -15,12 +15,12 @@ for(i = 0; i < selectedWord.length; i++) {
     firstWord.appendChild(letter);
 }
 
-const letters = firstWord.children; // each letter of the first word except the first
+const firstLetter = firstWord.children; // each letter of the word
 
-letters[0].textContent = selectedWord[0];
+firstLetter[0].textContent = selectedWord[0];
 
 for (i = 1; i < firstLetter.length; i++) {
-    letters[i].innerHTML = '<input type = "text">';
+    firstLetter[i].innerHTML = '<input type = "text">';
 }
 
 let inputs = document.querySelectorAll('input');
